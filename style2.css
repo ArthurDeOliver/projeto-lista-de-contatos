@@ -9,12 +9,12 @@ html, body{
 
 body{
     background-color: rgb(21,32,57);
-    padding: 16px;
+    /* padding: 16px; */
     margin: 160px;
     /* imagem de fundo */
-    /* background-image: url(Imagens/background.png); */
+    background-image: url(Imagens/background.png);
     /* preencher todo o espaço da tela */
-    /* background-size:cover; */
+    background-size:cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,9 +23,18 @@ body{
 
 }
 
+span{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: center;
+}
+
 h1{
     /* background-color: red; */
-    text-align: center;
+    /* text-align: center; */
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 header{
@@ -33,8 +42,8 @@ header{
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
-    /* background-color: red; */
+    /* width: 100%; */
+    /* background-color: blue; */
     color: white;    
 }
 
@@ -142,42 +151,47 @@ ul{
     background-image: url(Imagens/bg1.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .content2{
     background-image: url(Imagens/bg2.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 10px;
+
 }
 
 .content3{
     background-image: url(Imagens/bg3.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 10px;
+
 }
 
 .content4{
     background-image: url(Imagens/bg4.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 10px;
+
 }
 
 .content5{
     background-image: url(Imagens/bg5.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 10px;
+
 }
 
 .content6{
     background-image: url(Imagens/bg6.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 10px;
+
 }
 
 /* .naveg:hover{
@@ -185,19 +199,24 @@ ul{
     border: 2px #707070 solid;
 } */
 
+
 .naveg{
-    color:rgb(21,32,57);
+    /* color:rgb(21,32,57); */
+    opacity: 0;
     /* color: black; */
     /* border: 2px #ccc solid; */
     text-decoration: none;
     /* background-color: aliceblue; */
 }
-
 nav{
+    /* display: none; */
+    text-align: center;
     margin: 0;
-    /* width: 50%; */
+    /* height: 100px; */
+    /* width: 700px; */
     /* background-color: white; */
-    display: flex;
+    /* display: flex; */
+    /* height: 50px; */
     /* align-items: center; */
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
