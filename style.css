@@ -16,9 +16,9 @@ body{
 
     background-color: rgb(21,32,57);
     /* imagem de fundo */
-    /* background-image: url(Imagens/background.png); */
+    background-image: url(Imagens/background.png);
     /* preencher todo o espaço da tela */
-    /* background-size:cover; */
+    background-size:cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
