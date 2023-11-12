@@ -1,0 +1,154 @@
+html, body{
+    height: 100%;
+}
+
+body *{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    background-color: rgb(21,32,57);
+    /* imagem de fundo */
+    /* background-image: url(Imagens/background.png); */
+    /* preencher todo o espaço da tela */
+    /* background-size:cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+h1{
+    /* background-color: red; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    /* background-color: red; */
+    color: white;    
+}
+/* tamanho das imagens */
+.pessoa1{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.nome_email{
+    /* background-color: red; */
+    /* tamanho do quadrado dessa div */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+
+.criar{
+    /* background-color: red; */
+    margin-left: 20px;
+    /* margin-right: 20px; */
+}
+
+.botoes{
+    /* tamanho do quadrado dessa div */
+    width: 50%;
+    /* background-color: yellow; */
+    display: none;
+
+}
+
+li:hover{
+    background-color: rgb(173, 173, 173);
+}
+
+/*
+quando acontecer o li:hover aplicar em .botoes 
+tudo o que estiver aqui dentro  
+*/
+li:hover .botoes{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    /* opacidade do item */
+    opacity: 0.5;
+}
+
+
+.criar, .lixeira{
+    width: 20px;
+
+}
+
+/* característica do bloco list */
+.list{
+    background-color: #ccc;
+    /* largura e altura */
+    width: 40%;
+    min-width: 500px;
+    height: 400px;
+    /* borda redonda */
+    border-radius: 5px;
+    /* colocar os itens dentro da caixa list */
+    overflow: auto;
+}
+
+.content{
+    display: flex;
+}
+
+ul{
+    /* lista sem pontinho */
+    list-style: none;
+    
+}
+
+
+li{
+    border-bottom: 1px solid #6d6d6d;
+    padding: 10px;
+}
+
+
+
+/* .naveg:hover{
+    background-color: rgb(140, 144, 148);
+    border: 2px #707070 solid;
+} */
+
+.naveg{
+    color:rgb(21,32,57);
+    /* color: black; */
+    /* border: 2px #ccc solid; */
+    text-decoration: none;
+    /* background-color: aliceblue; */
+}
+nav{
+    /* display: none; */
+    margin: 0;
+    /* width: 700px; */
+    /* background-color: white; */
+    display: flex;
+    height: 50px;
+    /* align-items: center; */
+    justify-content: flex-end;
+}
